@@ -24,7 +24,7 @@ const Contact = () => {
 
 
     return (
-        <div className='container mx-auto my-20'>
+        <div name='contact' className='container mx-auto my-20'>
             <h1 className='text-3xl font-bold text-center my-10 text-gray-700'>Contact <span className='text-teal-500'>Me</span></h1>
             <section className="py-6 text-gray-700">
 	<div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x divide-gray-300">
