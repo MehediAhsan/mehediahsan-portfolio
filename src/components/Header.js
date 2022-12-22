@@ -41,12 +41,14 @@ const Header = () => {
               <div class="text-gray-600 lg:pr-4">
                 <ul class="space-y-6 tracking-wide font-medium text-base md:flex md:space-y-0">
                   <li>
-                    <a
-                      href="/"
-                      class="block md:px-4 transition hover:text-teal-700"
+                   <Link
+                      to={'about'}
+                      smooth 
+                      duration={500}
+                      class="block md:px-4 transition hover:text-teal-700 cursor-pointer"
                     >
                       <span>About Me</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <Link

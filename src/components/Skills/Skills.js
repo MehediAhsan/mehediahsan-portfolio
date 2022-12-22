@@ -50,8 +50,8 @@ const Skills = () => {
         }
     ]
     return (
-        <div name='skills' className='container w-96 mx-auto my-20'>
-            <h1 className='text-3xl font-bold text-center my-10 text-gray-700'>My <span className='text-teal-500'>Skills</span></h1>
+        <div data-aos="fade-up" data-aos-duration="2000" name='skills' className='container w-96 mx-auto my-28'>
+            <h1 className='text-3xl font-bold text-center my-20 text-gray-700'>My <span className='text-teal-500'>Skills</span></h1>
             <div className='grid grid-cols-3 gap-20'>
                 {
                     skills.map(skill => <Skill skill={skill}></Skill>)

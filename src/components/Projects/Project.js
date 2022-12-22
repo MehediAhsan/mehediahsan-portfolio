@@ -3,12 +3,15 @@ import React from 'react';
 const Project = ({project}) => {
     const {name, description, image, live_link, github_client, github_server} = project;
     return (
-        <div className="bg-gray-100 shadow-md border border-gray-200 rounded-lg max-w-sm mb-5">
+        <div className="shadow-lg rounded-2xl max-w-sm mb-5">
         
-            <img className="rounded p-3 h-64" src={image} alt=""/>
+            <img className="rounded p-2 h-64" src={image} alt=""/>
         
         <div className="p-5">
+                <div className='flex justify-between items-center'>
                 <h5 className="text-gray-800 font-semibold text-2xl tracking-tight mb-2">{name}</h5>
+                <p className='text-teal-600'>Details</p>
+                </div>
             
             <p className="font-normal text-gray-700 mb-3">{description}</p>
         <div className='flex gap-2'>
