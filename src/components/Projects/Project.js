@@ -3,9 +3,9 @@ import React from 'react';
 const Project = ({project}) => {
     const {name, description, image, live_link, github_client, github_server} = project;
     return (
-        <div className="shadow-lg rounded-2xl max-w-sm mb-5">
+        <div className="shadow-lg w-full md:w-96 mx-5 rounded-2xl mb-5 border border-rose-200">
         
-            <img className="rounded p-2 h-64" src={image} alt=""/>
+            <img className="rounded p-2 h-64 w-full" src={image} alt=""/>
         
         <div className="p-5">
                 <div className='flex justify-between items-center'>

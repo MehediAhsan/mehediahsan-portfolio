@@ -2,7 +2,7 @@ import React from 'react';
 
 const Social = () => {
     return (
-        <div className="grid grid-cols-1 fixed top-1/2 -translate-y-1/2 left-5 z-50 gap-5">
+        <div className="grid grid-cols-1 fixed top-1/2 -translate-y-1/2 left-1 md:left-3 z-50 gap-5">
       <a href="https://github.com/mehediahsan">
         <div>
           <img className="w-9 h-9 rounded-full" src="https://cdn-icons-png.flaticon.com/512/270/270798.png" alt="" />

@@ -24,11 +24,11 @@ const Contact = () => {
 
 
     return (
-        <div name='contact' className='container mx-auto my-20'>
+        <div data-aos="fade-up" data-aos-duration="500" name='contact' className='container mx-auto my-28'>
             <h1 className='text-3xl font-bold text-center my-10 text-gray-700'>Contact <span className='text-teal-500'>Me</span></h1>
             <section className="py-6 text-gray-700">
 	<div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x divide-gray-300">
-		<div data-aos="fade-right" data-aos-duration="2000"
+		<div data-aos="fade-right" data-aos-duration="500"
      className="py-6 md:py-0 md:px-6">
 			<h1 className="text-4xl font-bold">Get in touch</h1>
 			<p className="pt-2 pb-4">Fill in the form to start a conversation</p>
@@ -56,7 +56,7 @@ const Contact = () => {
 		</div>
 
 		<form data-aos="fade-left"
-     data-aos-duration="2000" ref={form} onSubmit={sendEmail} className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
+     data-aos-duration="500" ref={form} onSubmit={sendEmail} className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
 			<label className="block">
 				<span className="mb-1">Full name</span>
 				<input type="text" name='user_name' placeholder="Leroy Jenkins" className="block w-full rounded-md shadow-sm text-gray-800 border py-2 pl-2 border-gray-300" required />
