@@ -15,7 +15,7 @@ AOS.init();
 
 function App() {
   return (
-    <div className='bg-white'>
+    <div className='bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 overflow-hidden'>
       <Navbar></Navbar>
       <Banner></Banner>
       <About></About>

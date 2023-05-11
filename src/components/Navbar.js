@@ -12,7 +12,7 @@ const Navbar = () => {
         >
           
           <span class="ml-2 text-2xl font-bold tracking-wide text-teal-500">
-                  Mehedi <span class="text-gray-700">Ahsan</span>
+                  Mehedi <span class="text-slate-200">Ahsan</span>
           </span>
         </a>
         <ul class="flex items-center hidden space-x-8 lg:flex">
@@ -21,7 +21,7 @@ const Navbar = () => {
               to={'about'}
               smooth 
               duration={500}
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
+              class="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
             >
               About Me
             </Link>
@@ -31,7 +31,7 @@ const Navbar = () => {
               to={'skills'}
               smooth 
               duration={500}
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
+              class="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
             >
               Skills
             </Link>
@@ -41,7 +41,7 @@ const Navbar = () => {
               to={'projects'}
               smooth 
               duration={500}
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
+              class="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
             >
               Projects
             </Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
               to={'contact'}
               smooth 
               duration={500}
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
+              class="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
             >
               Contact Me
             </Link>
@@ -93,7 +93,7 @@ const Navbar = () => {
                     >
                       
                       <span class="ml-2 text-xl font-bold tracking-wide text-teal-500">
-                  Mehedi <span class="text-gray-700">Ahsan</span>
+                  Mehedi <span class="text-slate-200">Ahsan</span>
           </span>
                     </a>
                   </div>
@@ -120,7 +120,7 @@ const Navbar = () => {
               to={'about'}
               smooth 
               duration={500}
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
+              class="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
             >
               About Me
             </Link>
@@ -130,7 +130,7 @@ const Navbar = () => {
               to={'skills'}
               smooth 
               duration={500}
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
+              class="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
             >
               Skills
             </Link>
@@ -140,7 +140,7 @@ const Navbar = () => {
               to={'projects'}
               smooth 
               duration={500}
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
+              class="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
             >
               Projects
             </Link>
@@ -150,7 +150,7 @@ const Navbar = () => {
               to={'contact'}
               smooth 
               duration={500}
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
+              class="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
             >
               Contact Me
             </Link>

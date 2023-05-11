@@ -56,7 +56,7 @@ const Projects = () => {
 
     return (
         <div data-aos="fade-up" data-aos-duration="500" name='projects' className='container mx-auto my-20'>
-            <h1 className='text-3xl font-bold text-center my-20 text-gray-700'>My Latest<span className='text-teal-500'> Projects</span></h1>
+            <h1 className='text-3xl font-bold text-center my-20 text-slate-200'>My Latest<span className='text-teal-500'> Projects</span></h1>
             <div className='px-5 md:px-14 xl:px-40'>
                 <Slider {...settings}>
                 {

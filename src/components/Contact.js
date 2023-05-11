@@ -25,8 +25,8 @@ const Contact = () => {
 
     return (
         <div data-aos="fade-up" data-aos-duration="500" name='contact' className='container mx-auto my-28'>
-            <h1 className='text-3xl font-bold text-center my-10 text-gray-700'>Contact <span className='text-teal-500'>Me</span></h1>
-            <section className="py-6 text-gray-700">
+            <h1 className='text-3xl font-bold text-center my-10 text-slate-200'>Contact <span className='text-teal-500'>Me</span></h1>
+            <section className="py-6 text-slate-200">
 	<div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x divide-gray-300">
 		<div data-aos="fade-right" data-aos-duration="500"
      className="py-6 md:py-0 md:px-6">
