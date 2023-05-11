@@ -9,7 +9,7 @@ const Project = ({project}) => {
         
         <div className="p-5">
                 <div className='flex justify-between items-center'>
-                <h5 className="text-gray-800 font-semibold text-2xl tracking-tight mb-2">{name}</h5>
+                <h5 className="text-gray-200 font-semibold text-2xl tracking-tight mb-2">{name}</h5>
                 <p className='text-teal-600'>Details</p>
                 </div>
             

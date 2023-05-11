@@ -23,7 +23,7 @@ function App() {
       <Projects></Projects>
       <Contact></Contact>
       <Social></Social>
-      <ScrollToTop smooth style={{backgroundColor:"white", borderRadius:'50%'}}/>
+      <ScrollToTop smooth style={{backgroundColor:"gray", borderRadius:'100%', paddingLeft:'5px'}}/>
       <Toaster />
     </div>
   );
