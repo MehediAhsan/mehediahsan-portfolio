@@ -1,37 +1,49 @@
 import React from 'react';
 import Skill from './Skill';
+import html from './logo/html-5.png'
+import css from './logo/css-3.png'
+import js from './logo/js.png'
+import react from './logo/react.png'
+import node from './logo/node-js.png'
+import mongodb from './logo/mongodb.png'
+import tailwind from './logo/tailwind-css.png'
+import express from './logo/express-js.png'
+import firebase from './logo/firebase.png'
+import bootstrap from './logo/bootstrap.png'
+import typescript from './logo/typescript.png'
+
 
 const Skills = () => {
     const skills = [
         {
             id:"1",
             name: "html",
-            img: 'https://cdn-icons-png.flaticon.com/512/5968/5968267.png'
+            img: html
         },
         {
             id:"2",
             name: "css",
-            img: 'https://cdn-icons-png.flaticon.com/512/5968/5968242.png'
+            img: css
         },
         {
             id:"3",
             name: "javascript",
-            img: 'https://cdn-icons-png.flaticon.com/512/5968/5968292.png'
+            img: js
         },
         {
             id:"4",
             name: "react",
-            img: 'https://cdn-icons-png.flaticon.com/512/1126/1126012.png'
+            img: react
         },
         {
             id:"5",
             name: "node",
-            img: 'https://seeklogo.com/images/N/nodejs-logo-065257DE24-seeklogo.com.png'
+            img: node
         },
         {
             id:"6",
             name: "mongodb",
-            img: 'https://seeklogo.com/images/M/mongodb-logo-655F7D542D-seeklogo.com.png'
+            img: mongodb
         },
         {
             id:"7",
@@ -40,34 +52,34 @@ const Skills = () => {
         },
         {
             id:"8",
-            name: "github",
-            img: 'https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png'
+            name: "tailwind",
+            img: tailwind
         },
         {
             id:"9",
-            name: "github",
-            img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT77rd62Bnh454x8VW7vpdSLl6NYxQwi--mH3k0YDAhj1NEnCqm8oTQbMZfngn9LQTCvfY&usqp=CAU'
+            name: "express",
+            img: express
         },
         {
             id:"10",
             name: "firebase",
-            img: 'https://seeklogo.com/images/F/firebase-logo-402F407EE0-seeklogo.com.png'
+            img: firebase
         },
         {
             id:"11",
-            name: "firebase",
-            img: 'https://seeklogo.com/images/B/bootstrap-5-logo-85A1F11F4F-seeklogo.com.png'
+            name: "bootstrap",
+            img: bootstrap
         },
         {
             id:"12",
-            name: "firebase",
-            img: 'https://seeklogo.com/images/T/typescript-logo-B29A3F462D-seeklogo.com.png'
+            name: "typescript",
+            img: typescript
         }
     ]
     return (
-        <div data-aos="fade-up" data-aos-duration="500" name='skills' className='container mx-auto my-28 overflow-hidden'>
+        <div data-aos="fade-up" data-aos-duration="500" name='skills' className='  my-28 overflow-hidden'>
             <h1 className='text-3xl font-bold text-center my-20 text-slate-200'>My <span className='text-teal-500'>Skills</span></h1>
-            <div className='grid grid-cols-2 md:grid-cols-4 gap-20 mx-20 md:mx-44 p-0 m-0 overflow-hidden'>
+            <div className='grid grid-cols-2 md:grid-cols-4 gap-20 mx-20 md:mx-64 p-6 m-0 overflow-hidden'>
                 {
                     skills.map(skill => <Skill skill={skill}></Skill>)
                 }
