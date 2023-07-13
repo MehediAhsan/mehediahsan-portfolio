@@ -48,6 +48,16 @@ const Navbar = () => {
           </li>
           <li>
             <Link
+              to={'youtube'}
+              smooth 
+              duration={500}
+              class="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
+            >
+              Youtube
+            </Link>
+          </li>
+          <li>
+            <Link
               to={'contact'}
               smooth 
               duration={500}
@@ -82,7 +92,7 @@ const Navbar = () => {
           </button>
           {isMenuOpen && (
             <div class="absolute z-50 top-0 left-0 w-full">
-              <div class="p-5 bg-white border rounded shadow-sm">
+              <div class="p-5 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 overflow-hidden border rounded shadow-sm">
                 <div class="flex items-center justify-between mb-4">
                   <div>
                     <a

@@ -10,6 +10,7 @@ import 'aos/dist/aos.css';
 import Social from './components/Social';
 import About from './components/About';
 import Navbar from './components/Navbar';
+import Youtube from './components/Youtube/Youtube';
 
 AOS.init();
 
@@ -21,6 +22,7 @@ function App() {
       <About></About>
       <Skills></Skills>
       <Projects></Projects>
+      <Youtube></Youtube>
       <Contact></Contact>
       <Social></Social>
       <ScrollToTop smooth style={{backgroundColor:"gray", borderRadius:'100%', paddingLeft:'5px'}}/>
