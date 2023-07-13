@@ -157,6 +157,16 @@ const Navbar = () => {
           </li>
           <li>
             <Link
+              to={'youtube'}
+              smooth 
+              duration={500}
+              class="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
+            >
+              Youtube
+            </Link>
+          </li>
+          <li>
+            <Link
               to={'contact'}
               smooth 
               duration={500}
