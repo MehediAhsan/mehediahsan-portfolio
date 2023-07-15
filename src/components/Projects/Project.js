@@ -5,7 +5,7 @@ const Project = ({project}) => {
     return (
         <div className="shadow-lg w-full md:w-96 mx-5 rounded-2xl mb-5 border border-rose-200">
         
-            <img className="rounded p-2 h-64 w-full" src={image} alt=""/>
+            <img className="rounded-2xl p-2 h-64 w-full" src={image} alt=""/>
         
         <div className="p-5">
                 <div className='flex justify-between items-center'>

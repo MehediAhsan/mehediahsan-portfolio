@@ -10,20 +10,20 @@
   },
   {
     "id": "2",
+    "name": "LaptopResalez.",
+    "description": "LaptopResaleZ. website helps people to buy any second-hand product that is sell any seller.",
+    "image": "https://i.ibb.co/r3NZvyk/laptop.png",
+    "live_link": "https://laptop-resale-8831b.web.app/",
+    "github_client": "https://github.com/MehediAhsan/laptop-resale-client",
+    "github_server": "https://github.com/MehediAhsan/laptop-resale-server"
+  },
+  {
+    "id": "3",
     "name": "Ahsan Photography",
     "description": "This application provide in wedding, sports, portrait, event photography.",
     "image": "https://i.ibb.co/rG54G2q/ahsanphotography.png",
     "live_link": "https://ahsan-photography.web.app/",
     "github_client": "https://github.com/MehediAhsan/ahsan-photography-client",
     "github_server": "https://github.com/MehediAhsan/ahsan-photography-server"
-  }, 
-  {
-    "id": "3",
-    "name": "LaptopResalez.",
-    "description": "LaptopResaleZ. website helps people to buy any second-hand product that is sell any seller.",
-    "image": "https://i.ibb.co/18RjBJQ/laptopresale.png",
-    "live_link": "https://laptop-resale-8831b.web.app/",
-    "github_client": "https://github.com/MehediAhsan/laptop-resale-client",
-    "github_server": "https://github.com/MehediAhsan/laptop-resale-server"
-  } 
+  }  
 ]
