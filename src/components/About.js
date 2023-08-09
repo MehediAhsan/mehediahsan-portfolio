@@ -20,7 +20,11 @@ const About = () => {
                     <h1 className="font-semibold text-3xl text-gray-200 md:w-9/12 xl:w-10/12">
                         Hi👋, I'm Mehedi Ahsan
                     </h1>
-                    <p className="mt-3  text-gray-200 xl:text-lg xl:w-11/12"> I’m a web developer with 1 years of experience. I am studying B.Sc in Computer Science and Engineering in Faridpur Engineering College. I have advanced skills in HTML5, CSS3, JavaScript, React js, firebase, Tailwind CSS, Bootstrap, REST API, Git, node js, express js, mongodb, responsive web designed. I’m a quick learner, consistent, and hardworking person.
+                    <p className="mt-3  text-gray-200 xl:text-lg xl:w-11/12">I am a dedicated and driven MERN Stack Web Developer. I recently completed
+an internship and a Web Development course. Proficient in JavaScript, React, Node.js,
+Express.js and MongoDB. I am passionate about creating innovative and user-friendly web
+applications. Seeking a challenging position in a dynamic organization where I can utilize my
+expertise, collaborate with talented teams, and further enhance my career.
                     </p>
 
                     <div className="flex mt-6 items-center gap-7">

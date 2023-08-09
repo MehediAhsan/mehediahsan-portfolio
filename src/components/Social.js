@@ -18,7 +18,7 @@ const Social = () => {
             <img className="w-9 h-9 rounded-full transform hover:-translate-y-2 duration-500" src="https://cdn-icons-png.flaticon.com/512/552/552486.png" alt="" />
         </div>
       </a>
-      <a href="https://twitter.com/mehediahsan19">
+      <a href="https://www.facebook.com/MehediAhsanShow">
         <div>
           <img className="w-9 h-9 rounded-full transform hover:-translate-y-2 duration-500" src="https://cdn-icons-png.flaticon.com/512/3670/3670124.png" alt="" />
         </div>
