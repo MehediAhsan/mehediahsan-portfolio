@@ -2,8 +2,8 @@
   {
     "id": "1",
     "name": "Tour Place",
-    "description": "This website provide users to different types of hotel books according to the specific place.",
-    "image": "https://i.ibb.co/DWd6gVP/tourplace.png",
+    "description": "This website provide users to different types of hotel books.",
+    "image": "https://i.ibb.co/rypPgCQ/tour.png",
     "live_link": "https://tour-place-cf5e6.web.app/",
     "github_client": "https://github.com/MehediAhsan/tour-place",
     "github_server": "https://github.com/MehediAhsan/tour-place-server"
@@ -11,8 +11,8 @@
   {
     "id": "2",
     "name": "LaptopResalez.",
-    "description": "LaptopResaleZ. website helps people to buy any second-hand product that is sell any seller.",
-    "image": "https://i.ibb.co/r3NZvyk/laptop.png",
+    "description": "LaptopResaleZ. website helps people to buy any second-hand product.",
+    "image": "https://i.ibb.co/rprpfgx/resale.png",
     "live_link": "https://laptop-resale-8831b.web.app/",
     "github_client": "https://github.com/MehediAhsan/laptop-resale-client",
     "github_server": "https://github.com/MehediAhsan/laptop-resale-server"

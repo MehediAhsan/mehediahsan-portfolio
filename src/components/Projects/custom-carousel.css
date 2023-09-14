@@ -1,0 +1,10 @@
+/* custom-carousel.css */
+/* Customize the dot color */
+.slick-dots li button:before {
+    color: #f3f0f0; /* Change this color to your desired color */
+}
+
+/* Customize the active dot color */
+.slick-dots li.slick-active button:before {
+    color: #ff5722; /* Change this color to your desired active color */
+}
