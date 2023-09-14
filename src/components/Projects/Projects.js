@@ -58,7 +58,7 @@ const Projects = () => {
     return (
         <div data-aos="fade-up" data-aos-duration="500" name='projects' className='container mx-auto my-20'>
             <h1 className='text-3xl font-bold text-center my-20 text-slate-200'>My Latest<span className='text-teal-500'> Projects</span></h1>
-            <div className='px-8 md:px-40 '>
+            <div className='px-8 md:px-44 '>
                 <Slider {...settings}>
                 {
                     projects.map(project => <Project key={project.id} project={project}></Project>)
