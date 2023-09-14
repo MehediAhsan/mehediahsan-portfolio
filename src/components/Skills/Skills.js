@@ -18,62 +18,74 @@ const Skills = () => {
         {
             id:"1",
             name: "html",
-            img: html
+            img: html,
+            percentage: '90%'
         },
         {
             id:"2",
             name: "css",
-            img: css
+            img: css,
+            percentage: '90%'
         },
         {
             id:"3",
             name: "javascript",
-            img: js
+            img: js,
+            percentage: '80%'
         },
         {
             id:"4",
             name: "react",
-            img: react
+            img: react,
+            percentage: '90%'
         },
         {
             id:"5",
             name: "node",
-            img: node
+            img: node,
+            percentage: '70%'
         },
         {
             id:"6",
             name: "mongodb",
-            img: mongodb
+            img: mongodb,
+            percentage: '70%'
         },
         {
             id:"7",
             name: "github",
-            img: 'https://cdn-icons-png.flaticon.com/512/270/270798.png'
+            img: 'https://cdn-icons-png.flaticon.com/512/270/270798.png',
+            percentage: '90%'
         },
         {
             id:"8",
             name: "tailwind",
-            img: tailwind
+            img: tailwind,
+            percentage: '90%'
         },
         {
             id:"9",
             name: "express",
-            img: express
+            img: express,
+            percentage: '80%'
         },
         {
             id:"10",
             name: "firebase",
-            img: firebase
+            img: firebase,
+            percentage: '90%'
         },
         {
             id:"11",
             name: "bootstrap",
-            img: bootstrap
+            img: bootstrap,
+            percentage: '90%'
         },
         {
             id:"12",
             name: "typescript",
-            img: typescript
+            img: typescript,
+            percentage: '70%'
         }
     ]
     return (
