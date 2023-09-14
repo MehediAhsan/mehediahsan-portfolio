@@ -9,7 +9,7 @@ const About = () => {
     ];
 
     return (
-        <section id="about" className="py-16 lg:py-32 px-20">
+        <section id="about" className="py-24 md:py-44 px-14 md:px-28">
             <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between">
                 <div
                     data-aos="fade-right"

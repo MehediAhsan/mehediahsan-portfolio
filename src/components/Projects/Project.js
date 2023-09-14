@@ -5,7 +5,7 @@ const Project = ({ project }) => {
     const { name, description, image, live_link, github_client, github_server } = project;
 
     return (
-        <div className=" rounded-lg overflow-hidden shadow-lg mx-auto w-11/12 mb-8">
+        <div className="bg-gray-100 rounded-lg overflow-hidden shadow-lg mx-auto w-11/12 mb-8">
             <img
                 className="h-auto w-full object-cover"
                 src={image}
@@ -13,8 +13,8 @@ const Project = ({ project }) => {
                 loading="lazy"
             />
             <div className="p-3 md:p-5">
-                <h5 className="text-gray-200 font-semibold text-lg sm:text-xl md:text-2xl tracking-tight mb-4">{name}</h5>
-                {/* <p className="text-gray-600 text-sm md:text-base mb-3">{description}</p> */}
+                <h5 className="text-teal-600 font-semibold text-lg sm:text-xl md:text-2xl tracking-tight mb-4">{name}</h5>
+                <p className="text-gray-600 text-sm md:text-base mb-3 hidden md:block">{description}</p>
                 <div className="flex flex-wrap gap-2">
                     <a
                         href={live_link}

@@ -89,9 +89,9 @@ const Skills = () => {
         }
     ]
     return (
-        <div data-aos="fade-up" data-aos-duration="500" name='skills' className='container mx-auto  my-28 overflow-hidden'>
+        <div data-aos="fade-up" data-aos-duration="500" name='skills' className='container mx-auto  mb-20 overflow-hidden'>
             <h1 className='text-3xl font-bold text-center mb-10 text-slate-200'>My <span className='text-teal-500'>Skills</span></h1>
-            <div className='grid grid-cols-2 md:grid-cols-4 gap-20 mx-10 sm:mx-14 md:mx-56 p-6 m-0 overflow-hidden'>
+            <div className='grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-20 mx-8 sm:mx-10 md:mx-56 p-6 m-0 overflow-hidden'>
                 {
                     skills.map(skill => <Skill skill={skill}></Skill>)
                 }
