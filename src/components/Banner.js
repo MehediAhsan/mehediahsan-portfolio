@@ -32,9 +32,11 @@ const Banner = () => {
                 </div>
                 <div data-aos="fade-down" data-aos-duration="1000" className="ml-auto">
                     
-                    <div class="relative lg:w-96 border border-teal-300 before:absolute before:-bottom-2 before:-right-2 before:h-14 before:w-14 before:border-b before:border-teal-200 before:border-r before:transition-all before:duration-300 before:ease-in-out after:absolute after:-top-2 after:-left-2 after:h-14 after:w-14 after:border-teal-200 after:border-t after:border-l after:transition-all after:duration-300 after:ease-in-out hover:before:h-[calc(100%+16px)] hover:before:w-[calc(100%+16px)] hover:after:h-[calc(100%+16px)] hover:after:w-[calc(100%+16px)]">
-                    <img src={photo} className="lg:w-96 relative shadow-teal-400 drop-shadow-2xl p-3" alt="Mehedi" loading="lazy"/>
+                    {/* <div class="relative lg:w-96 border border-teal-300 before:absolute before:-bottom-2 before:-right-2 before:h-14 before:w-14 before:border-b before:border-teal-200 before:border-r before:transition-all before:duration-300 before:ease-in-out after:absolute after:-top-2 after:-left-2 after:h-14 after:w-14 after:border-teal-200 after:border-t after:border-l after:transition-all after:duration-300 after:ease-in-out hover:before:h-[calc(100%+16px)] hover:before:w-[calc(100%+16px)] hover:after:h-[calc(100%+16px)] hover:after:w-[calc(100%+16px)]"> */}
+                    <div className='shadow-md transition duration-300 hover:shadow-lg hover:shadow-teal-200 shadow-teal-200 rounded-3xl cursor-pointer'>
+                    <img src={photo} className="md:w-96 relative rounded-3xl " alt="Mehedi" loading="lazy"/>
                     </div>
+                    {/* </div> */}
                 </div>
             </div>
         </div>
