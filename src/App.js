@@ -25,7 +25,7 @@ function App() {
       <Youtube></Youtube>
       <Contact></Contact>
       <Social></Social>
-      <ScrollToTop smooth style={{backgroundColor:"gray", borderRadius:'100%', paddingLeft:'5px'}}/>
+      <ScrollToTop smooth style={{backgroundColor:"gray", borderRadius:'100%', paddingLeft:'6px'}}/>
       <Toaster />
     </div>
   );

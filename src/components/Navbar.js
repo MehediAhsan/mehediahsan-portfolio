@@ -5,7 +5,7 @@ const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     return (
         <div class="container px-4 py-5 mx-auto md:px-24 lg:px-8">
-      <div class="relative flex items-center justify-between">
+      <div class="relative flex items-center justify-between uppercase">
         <a
           href="/"
           class="inline-flex items-center"
