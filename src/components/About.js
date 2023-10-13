@@ -10,15 +10,15 @@ const About = () => {
 
     return (
         <section id="about" className="py-24 md:py-44 px-14 md:px-28">
-            <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between">
+            <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between">
                 <div
                     data-aos="fade-right"
                     data-aos-duration="500"
-                    className="mb-10 lg:mb-0 lg:w-1/2"
+                    className="mt-10 md:mt-0 rounded-full shadow-md transition duration-300 hover:shadow-lg hover:shadow-teal-200 shadow-teal-200 cursor-pointer w-80 h-80 md:w-96 md:h-96"
                 >
                     <img
                         src={about}
-                        className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 border-4 border-teal-300 rounded-full p-2 shadow-lg"
+                        className="w-80 h-80 md:w-96 md:h-96 rounded-full p-2 shadow-lg"
                         alt="Mehedi"
                         loading="lazy"
                     />
@@ -26,7 +26,7 @@ const About = () => {
                 <div
                     data-aos="fade-left"
                     data-aos-duration="500"
-                    className="lg:w-1/2 text-center lg:text-left"
+                    className="md:w-1/2 text-center md:text-left"
                 >
                     <h1 className="text-3xl lg:text-4xl text-gray-200 font-bold mb-4">
                         Hi, I'm Mehedi Ahsan
