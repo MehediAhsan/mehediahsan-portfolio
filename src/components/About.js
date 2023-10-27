@@ -14,7 +14,7 @@ const About = () => {
                 <div
                     data-aos="fade-right"
                     data-aos-duration="500"
-                    className="mt-10 md:mt-0 rounded-full shadow-md transition duration-300 hover:shadow-lg hover:shadow-teal-200 shadow-teal-200 cursor-pointer w-80 h-80 md:w-96 md:h-96"
+                    className="mt-10 md:mt-0 rounded-full shadow-md transition duration-300 shadow-teal-200 hover:shadow-lg hover:shadow-teal-200 cursor-pointer w-80 h-80 md:w-96 md:h-96"
                 >
                     <img
                         src={about}
