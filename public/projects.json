@@ -34,5 +34,14 @@
     "live_link": "https://ahsan-photography.web.app/",
     "github_client": "https://github.com/MehediAhsan/ahsan-photography-client",
     "github_server": "https://github.com/MehediAhsan/ahsan-photography-server"
+  },  
+  {
+    "id": "4",
+    "name": "eduConnect",
+    "description": "This application provide educational courses and tutorials",
+    "image": "https://i.ibb.co/VVpq7Px/educonnect.png",
+    "live_link": "https://education-platform-eight.vercel.app/",
+    "github_client": "https://github.com/MehediAhsan/education-platform",
+    "github_server": "https://github.com/MehediAhsan/education-platform"
   }  
 ]
