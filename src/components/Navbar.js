@@ -1,72 +1,67 @@
-import React, { useState } from 'react';
-import { Link } from 'react-scroll';
+import React, { useState } from "react";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
-    return (
-        <div class="container px-4 py-5 mx-auto md:px-24 lg:px-8">
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  return (
+    <div class="container px-4 py-5 mx-auto md:px-24 lg:px-8">
       <div class="relative flex items-center justify-between uppercase">
-        <a
-          href="/"
-          class="inline-flex items-center"
-        >
-          
-          <span class="ml-2 text-2xl font-bold tracking-wide text-teal-500">
-                  Mehedi <span class="text-slate-200">Ahsan</span>
+        <a href="/" class="inline-flex items-center ">
+          <span class="ml-2 text-2xl font-semibold tracking-wide text-teal-400 transform -skew-y-3">
+            Mehedi <span class="text-slate-300">Ahsan</span>
           </span>
         </a>
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
             <Link
-              to={'about'}
-              smooth 
+              to={"about"}
+              smooth
               duration={500}
-              class="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
+              class="tracking-wide text-slate-400 transition-colors duration-200 hover:text-slate-200 cursor-pointer"
             >
               About Me
             </Link>
           </li>
           <li>
             <Link
-              to={'skills'}
-              smooth 
+              to={"skills"}
+              smooth
               duration={500}
-              class="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
+              class="tracking-wide text-slate-400 transition-colors duration-200 hover:text-slate-200 cursor-pointer"
             >
               Skills
             </Link>
           </li>
           <li>
             <Link
-              to={'projects'}
-              smooth 
+              to={"projects"}
+              smooth
               duration={500}
-              class="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
+              class="tracking-wide text-slate-400 transition-colors duration-200 hover:text-slate-200 cursor-pointer"
             >
               Projects
             </Link>
           </li>
           <li>
             <Link
-              to={'youtube'}
-              smooth 
+              to={"youtube"}
+              smooth
               duration={500}
-              class="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
+              class="tracking-wide text-slate-400 transition-colors duration-200 hover:text-slate-200 cursor-pointer"
             >
               Youtube
             </Link>
           </li>
           <li>
             <Link
-              to={'contact'}
-              smooth 
+              to={"contact"}
+              smooth
               duration={500}
-              class="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
+              class="tracking-wide text-slate-400 transition-colors duration-200 hover:text-slate-200 cursor-pointer"
             >
               Contact Me
             </Link>
           </li>
-          
         </ul>
         <div class="lg:hidden">
           <button
@@ -101,10 +96,9 @@ const Navbar = () => {
                       title="Company"
                       class="inline-flex items-center"
                     >
-                      
                       <span class="ml-2 text-xl font-bold tracking-wide text-teal-500">
-                  Mehedi <span class="text-slate-200">Ahsan</span>
-          </span>
+                        Mehedi <span class="text-slate-300">Ahsan</span>
+                      </span>
                     </a>
                   </div>
                   <div>
@@ -125,57 +119,56 @@ const Navbar = () => {
                 </div>
                 <nav>
                   <ul class="space-y-4">
-                  <li>
-            <Link
-              to={'about'}
-              smooth 
-              duration={500}
-              class="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
-            >
-              About Me
-            </Link>
-          </li>
-          <li>
-            <Link
-              to={'skills'}
-              smooth 
-              duration={500}
-              class="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
-            >
-              Skills
-            </Link>
-          </li>
-          <li>
-            <Link
-              to={'projects'}
-              smooth 
-              duration={500}
-              class="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
-            >
-              Projects
-            </Link>
-          </li>
-          <li>
-            <Link
-              to={'youtube'}
-              smooth 
-              duration={500}
-              class="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
-            >
-              Youtube
-            </Link>
-          </li>
-          <li>
-            <Link
-              to={'contact'}
-              smooth 
-              duration={500}
-              class="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-deep-purple-accent-400 cursor-pointer"
-            >
-              Contact Me
-            </Link>
-          </li>
-                    
+                    <li>
+                      <Link
+                        to={"about"}
+                        smooth
+                        duration={500}
+                        class="tracking-wide text-slate-400 transition-colors duration-200 hover:text-slate-200 cursor-pointer"
+                      >
+                        About Me
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to={"skills"}
+                        smooth
+                        duration={500}
+                        class="tracking-wide text-slate-400 transition-colors duration-200 hover:text-slate-200 cursor-pointer"
+                      >
+                        Skills
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to={"projects"}
+                        smooth
+                        duration={500}
+                        class="tracking-wide text-slate-400 transition-colors duration-200 hover:text-slate-200 cursor-pointer"
+                      >
+                        Projects
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to={"youtube"}
+                        smooth
+                        duration={500}
+                        class="tracking-wide text-slate-400 transition-colors duration-200 hover:text-slate-200 cursor-pointer"
+                      >
+                        Youtube
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to={"contact"}
+                        smooth
+                        duration={500}
+                        class="tracking-wide text-slate-400 transition-colors duration-200 hover:text-slate-200 cursor-pointer"
+                      >
+                        Contact Me
+                      </Link>
+                    </li>
                   </ul>
                 </nav>
               </div>
@@ -184,7 +177,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-    );
+  );
 };
 
 export default Navbar;

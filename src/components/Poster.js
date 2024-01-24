@@ -1,6 +1,7 @@
 import React from "react";
 import photo from "../assets/mehediahsan.png";
-import Typewriter from 'typewriter-effect';
+import Typewriter from "typewriter-effect";
+import "./../App.css";
 
 const Poster = () => {
   return (
@@ -14,7 +15,7 @@ const Poster = () => {
       </div>
       <img
         src={photo}
-        className="w-36 h-36 shadow-lg absolute rounded-full"
+        className="w-32 h-32 shadow-lg absolute rounded-full"
         alt="Mehedi"
         loading="lazy"
       />
@@ -31,6 +32,11 @@ const Poster = () => {
           }}
         />
       </h1>
+      <button class="absolute mt-72 ui-btn">
+      <a href="https://drive.google.com/file/d/1WEuqyNWP0S805IE4Sx71X4sxH8_-EPaP/view" target="_blank">
+        <span>RESUME</span>
+      </a>
+      </button>
     </div>
   );
 };

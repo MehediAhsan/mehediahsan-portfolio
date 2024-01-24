@@ -9,7 +9,7 @@ const About = () => {
     ];
 
     return (
-        <section id="about" className="py-24 md:py-4 px-14 md:px-28">
+        <section id="about" className="py-24 md:pb-44 px-14 md:px-28">
             <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between">
                 <div
                     data-aos="fade-right"
