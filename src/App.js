@@ -11,6 +11,7 @@ import Social from './components/Social';
 import About from './components/About';
 import Navbar from './components/Navbar';
 import Youtube from './components/Youtube/Youtube';
+import Poster from './components/Poster';
 
 AOS.init();
 
@@ -18,7 +19,8 @@ function App() {
   return (
     <div className='bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 overflow-hidden'>
       <Navbar></Navbar>
-      <Banner></Banner>
+      {/* <Banner></Banner> */}
+      <Poster></Poster>
       <About></About>
       <Skills></Skills>
       <Projects></Projects>
