@@ -17,7 +17,7 @@ AOS.init();
 
 function App() {
   return (
-    <div className='font-primary bg-gradient-to-r from-gray-800 via-gray-900 to-gray-800 overflow-hidden'>
+    <div className='font-primary bg-gradient-to-r from-[#020f0f] via-[#000101] to-[#020c0c] overflow-hidden'>
       <Navbar></Navbar>
       {/* <Banner></Banner> */}
       <Poster></Poster>

@@ -21,12 +21,12 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(45deg, rgb(255, 255, 255), #0b9db7);
+  background: linear-gradient(45deg, #0b9db7, #0b9db7);
   border-radius: 8px;
 }
 
 ::-webkit-scrollbar-thumb:active {
-  background: linear-gradient(45deg, rgb(255, 255, 255), #0bacb7);
+  background: linear-gradient(45deg, #0b9db7, #0bacb7);
   border-radius: 8px;
 }
 

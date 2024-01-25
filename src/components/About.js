@@ -18,7 +18,7 @@ const About = () => {
                 >
                     <img
                         src={about}
-                        className="w-80 h-80 md:w-96 md:h-96 rounded-2xl drop-shadow-2xl"
+                        className="w-80 md:w-96 rounded-[20px] drop-shadow-2xl"
                         alt="Mehedi"
                         loading="lazy"
                     />
