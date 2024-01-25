@@ -1,11 +1,11 @@
 import React from 'react';
-import about from '../assets/about.png';
+import about from '../assets/mehedi.png';
 
 const About = () => {
     const info = [
         { text: "Years of Experience", count: "01+" },
         { text: "Completed Projects", count: "15+" },
-        { text: "Companies Worked", count: "01+" },
+        { text: "Companies Worked", count: "02+" },
     ];
 
     return (
@@ -14,11 +14,11 @@ const About = () => {
                 <div
                     data-aos="fade-right"
                     data-aos-duration="500"
-                    className="mt-10 md:mt-0 rounded-full shadow-md transition duration-300 shadow-teal-200 hover:shadow-lg hover:shadow-teal-200 cursor-pointer w-80 h-80 md:w-96 md:h-96"
+                    className="mt-10 md:mt-0 shadow-md transition duration-300 cursor-pointer"
                 >
                     <img
                         src={about}
-                        className="w-80 h-80 md:w-96 md:h-96 rounded-full p-2 shadow-lg"
+                        className="w-80 h-80 md:w-96 md:h-96 rounded-2xl drop-shadow-2xl"
                         alt="Mehedi"
                         loading="lazy"
                     />
@@ -28,52 +28,21 @@ const About = () => {
                     data-aos-duration="500"
                     className="md:w-1/2 text-center md:text-left"
                 >
-                    <h1 className="text-3xl lg:text-4xl text-gray-200 font-bold mb-4">
-                        Hi, I'm Mehedi Ahsan
+                    <h1 className="text-3xl text-gray-300 mb-4">
+                        Mehedi Ahsan
                     </h1>
-                    <p className="text-lg lg:text-xl text-gray-200 mb-6">
-                        I'm a dedicated MERN Stack Web Developer with a passion for building innovative and user-friendly web applications.Proficient in JavaScript, React, Node.js, Express.js and MongoDB.
+                    <p className=" text-gray-400 mb-10 tracking-wide text-justify italic">
+                    A dedicated and driven Software Engineer, from Dhaka, Bangladesh.  Completed my graduation B.Sc in Computer Science and Engineering. Dynamic frontend wizard skilled in transforming design visions into captivating user interfaces. Expertise in Tailwind CSS, JavaScript, React, Next, Express, MongoDB. Proven collaborator, elevating cross-functional teamwork to ensure seamless, high-performance web experiences. Design-oriented, detail-focused, and committed to staying ahead of the curve in evolving web trends.Detail-oriented and driven problem solver, dedicated to staying ahead in the ever-evolving world of web development.
                     </p>
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:w-3/4 mx-auto">
                         {info.map((content) => (
                             <div key={content.text} className="text-center">
-                                <h3 className="text-4xl font-semibold text-teal-600">
+                                <h3 className="text-3xl font-medium text-teal-600">
                                     {content.count}
                                 </h3>
                                 <p className="text-sm text-gray-200">{content.text}</p>
                             </div>
                         ))}
-                    </div>
-                    <div className="mt-6">
-                        <p className="text-lg text-teal-600 font-medium mb-2">
-                            Contact Me:
-                        </p>
-                        <div className="flex flex-col space-y-2">
-                            <div className="flex items-center space-x-2 text-gray-200">
-                                <img
-                                    className="w-5 h-5"
-                                    src="https://cdn-icons-png.flaticon.com/128/684/684908.png"
-                                    alt=""
-                                />
-                                <span>Dhaka, Bangladesh</span>
-                            </div>
-                            <div className="flex items-center space-x-2 text-gray-200">
-                                <img
-                                    className="w-5 h-5"
-                                    src="https://cdn-icons-png.flaticon.com/128/9639/9639598.png"
-                                    alt=""
-                                />
-                                <span>+8801929378419</span>
-                            </div>
-                            <div className="flex items-center space-x-2 text-gray-200">
-                                <img
-                                    className="w-5 h-5"
-                                    src="https://cdn-icons-png.flaticon.com/128/732/732200.png"
-                                    alt=""
-                                />
-                                <span>mdmehedicse01@gmail.com</span>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
