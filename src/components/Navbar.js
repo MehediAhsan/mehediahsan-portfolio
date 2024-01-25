@@ -7,7 +7,7 @@ const Navbar = () => {
     <div class="container px-4 py-5 mx-auto md:px-24 lg:px-8">
       <div class="relative flex items-center justify-between uppercase">
         <a href="/" class="inline-flex items-center ">
-          <span class="ml-2 text-2xl font-semibold tracking-wide text-teal-400 transform -skew-y-3">
+          <span class="ml-2 text-2xl font-medium tracking-wide text-teal-400 transform -skew-y-3">
             Mehedi <span class="text-slate-300">Ahsan</span>
           </span>
         </a>

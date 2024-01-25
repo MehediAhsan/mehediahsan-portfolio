@@ -19,13 +19,13 @@ const Poster = () => {
         alt="Mehedi"
         loading="lazy"
       />
-      <h1 className="absolute mt-48 uppercase text-slate-400 tracking-[5px]">
+      <h1 className="absolute mt-48 uppercase text-slate-400 tracking-[6px]">
         Software Engineer
       </h1>
-      <h1 className="absolute font-medium text-3xl md:text-4xl text-teal-200">
+      <h1 className="absolute font-medium text-3xl md:text-4xl text-teal-100">
         <Typewriter
           options={{
-            strings: ["Hi🙋‍♂️", "I'm Mehedi Ahsan", "Junior Software Engineer"],
+            strings: ["This is Mehedi Ahsan", "A Software Engineer"],
             autoStart: true,
             loop: true,
             delay: 75,
