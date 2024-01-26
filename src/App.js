@@ -17,7 +17,7 @@ AOS.init();
 
 function App() {
   return (
-    <div className='font-primary bg-gradient-to-r from-[#020f0f] via-[#000101] to-[#020c0c] overflow-hidden'>
+    <div className='font-primary bg-gradient-to-r from-[#000808] via-[#000101] to-[#000808] overflow-hidden'>
       <Navbar></Navbar>
       {/* <Banner></Banner> */}
       <Poster></Poster>
@@ -27,7 +27,7 @@ function App() {
       <Youtube></Youtube>
       <Contact></Contact>
       <Social></Social>
-      <ScrollToTop smooth={true} height='24' color='#fff' style={{backgroundColor:"#21a3fa", borderRadius:'100%', padding:'6px'}}/>
+      <ScrollToTop smooth={true} height='24' color='#fff' style={{backgroundColor:"#3697af", borderRadius:'100%', padding:'6px'}}/>
       <Toaster />
     </div>
   );

@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#3697af'
+      }
+    },
     fontFamily: {
       'primary': ['Poppins', 'sans-serif']
     }
