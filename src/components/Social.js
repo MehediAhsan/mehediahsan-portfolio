@@ -1,30 +1,42 @@
-import React from 'react';
+import React from "react";
+import { FaGithub, FaLinkedin, FaFacebook, FaYoutube } from 'react-icons/fa';
 
 const Social = () => {
-    return (
-        <div className="grid grid-cols-1 fixed top-1/2 -translate-y-1/2 left-1 md:left-4 z-50 gap-5">
-      <a href="https://github.com/mehediahsan">
-        <div>
-          <img className="w-7 h-7 rounded-full transform hover:-translate-y-2 duration-500 drop-shadow" src="https://cdn-icons-png.flaticon.com/512/270/270798.png" alt="" />
-        </div>
-      </a>
-      <a href="https://www.linkedin.com/in/mehediahsan/">
-        <div>
-          <img className="w-7 h-7 rounded-full transform hover:-translate-y-2 duration-500 drop-shadow" src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="" />
-        </div>
-      </a>
-      <a href="mailto:mdmehedicse01@gmail.com">
-        <div>
-            <img className="w-7 h-7 rounded-full transform hover:-translate-y-2 duration-500 drop-shadow" src="https://cdn-icons-png.flaticon.com/512/552/552486.png" alt="" />
-        </div>
-      </a>
-      <a href="https://www.facebook.com/MehediAhsanShow">
-        <div>
-          <img className="w-7 h-7 rounded-full transform hover:-translate-y-2 duration-500 drop-shadow" src="https://cdn-icons-png.flaticon.com/512/3670/3670124.png" alt="" />
-        </div>
-      </a>
+  const socials = [
+    {
+      name: "Github",
+      link: "https://github.com/mehediahsan",
+      icon: <FaGithub/>
+    },
+    {
+      name: "LinkedIn",
+      link: "https://www.linkedin.com/in/mehediahsan/",
+      icon: <FaLinkedin />
+    },
+    {
+      name: "Facebook",
+      link: "https://www.facebook.com/MehediAhsanShow",
+      icon: <FaFacebook />
+    },
+    {
+      name: "Youtube",
+      link: "https://www.youtube.com/@mehediahsan",
+      icon: <FaYoutube />,
+    },
+  ];
+  return (
+    <div className="grid grid-cols-1 fixed top-1/2 -translate-y-1/2 left-1 md:left-4 z-50 gap-6">
+      {
+        socials?.map((social, index) => {
+          return (
+            <a href={social.link} target="_blank" key={index} className="transform hover:-translate-y-1 hover:skew-x-2 duration-500 drop-shadow text-primary hover:text-white text-xl">
+              {social.icon}
+            </a>
+          )
+        })
+      }
     </div>
-    );
+  );
 };
 
 export default Social;

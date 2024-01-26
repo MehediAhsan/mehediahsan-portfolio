@@ -28,10 +28,10 @@ const About = () => {
                     data-aos-duration="500"
                     className="md:w-1/2 text-center md:text-left"
                 >
-                    <h1 className="text-3xl text-gray-300 mb-4">
+                    <h1 className="text-3xl text-gray-300 mb-4" style={{fontFamily: 'cursive'}}>
                         Mehedi Ahsan
                     </h1>
-                    <p className=" text-gray-400 mb-10 tracking-wide text-justify italic">
+                    <p className=" text-primary mb-10 tracking-wide text-justify italic" style={{fontFamily: 'cursive'}}>
                     A dedicated and driven Software Engineer, from Dhaka, Bangladesh.  Completed my graduation B.Sc in Computer Science and Engineering. Dynamic frontend wizard skilled in transforming design visions into captivating user interfaces. Expertise in Tailwind CSS, JavaScript, React, Next, Express, MongoDB. Proven collaborator, elevating cross-functional teamwork to ensure seamless, high-performance web experiences. Design-oriented, detail-focused, and committed to staying ahead of the curve in evolving web trends.Detail-oriented and driven problem solver, dedicated to staying ahead in the ever-evolving world of web development.
                     </p>
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:w-3/4 mx-auto">

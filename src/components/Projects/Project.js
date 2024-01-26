@@ -6,7 +6,7 @@ const Project = ({ project }) => {
     project;
 
   return (
-    <div className="bg-[#010303] rounded-xl overflow-hidden shadow-lg mx-auto w-11/12 mb-8">
+    <div className="bg-[#010e0e] rounded-xl overflow-hidden shadow-lg mx-auto w-11/12 mb-8">
       <img
         className="h-64 w-full object-fill p-5 rounded-xl shadow-lg"
         src={image}
@@ -15,7 +15,7 @@ const Project = ({ project }) => {
       />
       <div className="pl-5">
         <div className="flex justify-around items-center mb-4">
-          <h5 className="text-teal-400 text-lg sm:text-xl tracking-tight ">
+          <h5 className="text-teal-400 text-lg sm:text-xl tracking-tight" style={{fontFamily: 'cursive'}}>
             {name}
           </h5>
           <a
@@ -28,7 +28,10 @@ const Project = ({ project }) => {
           </a>
         </div>
         {/* <p className="text-gray-600 text-sm md:text-base mb-3 hidden md:block">{description}</p> */}
-        <div className="flex flex-wrap gap-4 pb-5">
+        <div className="flex justify-between items-center pb-5 pt-3">
+        <button class="btn-details">Details</button>
+
+        <div className="flex flex-wrap gap-4 pr-5">
           <a
             href={github_client}
             className="border-y text-white font-medium rounded text-sm px-2 flex items-center p-1"
@@ -45,6 +48,7 @@ const Project = ({ project }) => {
           >
             <FaGithub className="mr-2" /> Server
           </a>
+        </div>
         </div>
       </div>
     </div>

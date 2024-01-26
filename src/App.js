@@ -1,5 +1,4 @@
 import './App.css';
-import Banner from './components/Banner';
 import Contact from './components/Contact';
 import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
@@ -19,7 +18,6 @@ function App() {
   return (
     <div className='font-primary bg-gradient-to-r from-[#000808] via-[#000101] to-[#000808] overflow-hidden'>
       <Navbar></Navbar>
-      {/* <Banner></Banner> */}
       <Poster></Poster>
       <About></About>
       <Skills></Skills>
@@ -27,7 +25,7 @@ function App() {
       <Youtube></Youtube>
       <Contact></Contact>
       <Social></Social>
-      <ScrollToTop smooth={true} height='24' color='#fff' style={{backgroundColor:"#3697af", borderRadius:'100%', padding:'6px'}}/>
+      <ScrollToTop smooth={true} height='24' color='#fff' style={{backgroundColor:"#0b6a8f", borderRadius:'100%', padding:'6px'}}/>
       <Toaster />
     </div>
   );

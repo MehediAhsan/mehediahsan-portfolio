@@ -52,13 +52,13 @@ const Contact = () => {
         </div>
       </div>
       <section className="py-6 text-primary">
-        <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x divide-gray-300">
+        <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x divide-gray-400">
           <div
             data-aos="fade-right"
             data-aos-duration="500"
-            className="py-6 md:py-0 md:px-6"
+            className="py-6 md:py-0 px-6"
           >
-            <h1 className="text-3xl">Get in touch</h1>
+            <h1 className="text-3xl" style={{fontFamily: 'cursive'}}>Get in touch</h1>
             <p className="pt-2 pb-4">
               Fill in the form to start a conversation
             </p>
@@ -109,7 +109,7 @@ const Contact = () => {
             data-aos-duration="500"
             ref={form}
             onSubmit={sendEmail}
-            className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid"
+            className="flex flex-col py-6 space-y-6 md:py-0 px-6 ng-untouched ng-pristine ng-valid"
           >
             <label className="block">
               <span className="mb-2">Full name</span>
@@ -143,7 +143,8 @@ const Contact = () => {
             </label>
             <input
               type="submit"
-              className="self-center px-5 py-2 text-lg rounded font-semibold bg-teal-600 text-gray-100 mt-8 cursor-pointer"
+              style={{fontFamily: 'cursive'}}
+              className="px-1 py-1 text-lg rounded bg-[#0b6a8f] text-gray-300 mt-8 cursor-pointer italic -skew-x-6"
               value="Send"
             />
           </form>

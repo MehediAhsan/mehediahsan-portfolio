@@ -48,7 +48,7 @@ const Youtube = () => {
         >
           <button
             type="button"
-            className="transition-all duration-300 hover:bg-gradient-to-br from-teal-400 to-teal-600 hover:from-teal-500 hover:to-teal-700 text-gray-200 border border-transparent border-teal-500 font-medium rounded-lg px-3 py-2 text-center inline-flex items-center shadow-md"
+            className="btn-details flex"
           >
             <FaYoutube className="text-xl mr-2" />
             See all videos
