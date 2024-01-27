@@ -11,82 +11,95 @@ import express from "./logo/express-js.png";
 import firebase from "./logo/firebase.png";
 import bootstrap from "./logo/bootstrap.png";
 import typescript from "./logo/typescript.png";
+import nextjs from "./logo/nextjs.png";
 
 const Skills = () => {
-  const skills = [
-    {
-      id: "1",
-      name: "html",
-      img: html,
-      percentage: "90%",
-    },
-    {
-      id: "2",
-      name: "css",
-      img: css,
-      percentage: "90%",
-    },
-    {
-      id: "3",
-      name: "javascript",
-      img: js,
-      percentage: "80%",
-    },
-    {
-      id: "4",
-      name: "react",
-      img: react,
-      percentage: "90%",
-    },
-    {
-      id: "5",
-      name: "node",
-      img: node,
-      percentage: "70%",
-    },
-    {
-      id: "6",
-      name: "mongodb",
-      img: mongodb,
-      percentage: "70%",
-    },
-    {
-      id: "7",
-      name: "github",
-      img: "https://cdn-icons-png.flaticon.com/512/270/270798.png",
-      percentage: "90%",
-    },
-    {
-      id: "8",
-      name: "tailwind",
-      img: tailwind,
-      percentage: "90%",
-    },
-    {
-      id: "9",
-      name: "express",
-      img: express,
-      percentage: "80%",
-    },
-    {
-      id: "10",
-      name: "firebase",
-      img: firebase,
-      percentage: "90%",
-    },
-    {
-      id: "11",
-      name: "bootstrap",
-      img: bootstrap,
-      percentage: "90%",
-    },
-    {
-      id: "12",
-      name: "typescript",
-      img: typescript,
-      percentage: "70%",
-    },
-  ];
+  const skills = {
+    expert: [
+      {
+        id: "1",
+        name: "html",
+        img: html,
+        percentage: "90%",
+      },
+      {
+        id: "2",
+        name: "css",
+        img: css,
+        percentage: "90%",
+      },
+      {
+        id: "3",
+        name: "javascript",
+        img: js,
+        percentage: "80%",
+      },
+      {
+        id: "4",
+        name: "react",
+        img: react,
+        percentage: "90%",
+      },
+      {
+        id: "5",
+        name: "node",
+        img: node,
+        percentage: "70%",
+      },
+      {
+        id: "7",
+        name: "nextjs",
+        img: nextjs,
+        percentage: "70%",
+      },
+      {
+        id: "8",
+        name: "tailwind",
+        img: tailwind,
+        percentage: "90%",
+      },
+    ],
+    comfortable: [
+      {
+        id: "9",
+        name: "express",
+        img: express,
+        percentage: "80%",
+      },
+      {
+        id: "10",
+        name: "firebase",
+        img: firebase,
+        percentage: "90%",
+      },
+      {
+        id: "11",
+        name: "bootstrap",
+        img: bootstrap,
+        percentage: "90%",
+      },
+      {
+        id: "12",
+        name: "typescript",
+        img: typescript,
+        percentage: "70%",
+      },
+      {
+        id: "13",
+        name: "mongodb",
+        img: mongodb,
+        percentage: "70%",
+      },
+    ],
+    tools: [
+      {
+        id: "7",
+        name: "github",
+        img: "https://cdn-icons-png.flaticon.com/512/270/270798.png",
+        percentage: "90%",
+      },
+    ]
+  };
   return (
     <div
       data-aos="fade-up"
@@ -105,10 +118,23 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-20 mx-8 sm:mx-10 md:mx-56 p-6 m-0 overflow-hidden">
-        {skills.map((skill) => (
+      {/* Expertise */}
+      <div className="">
+        <h1 className="text-3xl text-white ml-20 mb-5 italic" style={{fontFamily:'cursive'}}>Expertise</h1>
+      <div className="grid grid-cols-2 md:grid-cols-5 gap-10 md:gap-14 mx-8 sm:mx-10 md:mx-72 p-6 m-0 overflow-hidden">
+        {skills.expert.map((skill) => (
           <Skill skill={skill}></Skill>
         ))}
+      </div>
+      </div>
+      {/* Comfotable */}
+      <div>
+        <h1 className="text-3xl text-white ml-20 mb-5 italic" style={{fontFamily:'cursive'}}>Comfortable</h1>
+      <div className="grid grid-cols-2 md:grid-cols-5 gap-10 md:gap-14 mx-8 sm:mx-10 md:mx-72 p-6 m-0 overflow-hidden">
+        {skills.comfortable.map((skill) => (
+          <Skill skill={skill}></Skill>
+        ))}
+      </div>
       </div>
     </div>
   );
