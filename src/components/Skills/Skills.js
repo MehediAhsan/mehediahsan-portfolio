@@ -118,22 +118,34 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      {/* Expertise */}
-      <div className="">
-        <h1 className="text-3xl text-white ml-20 mb-5 italic" style={{fontFamily:'cursive'}}>Expertise</h1>
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-10 md:gap-14 mx-8 sm:mx-10 md:mx-72 p-6 m-0 overflow-hidden">
+      <div className="flex flex-col gap-10 justify-center">
+        {/* Expertise */}
+      <div className="flex flex-col md:flex-row gap-10 mx-10">
+        <h1 className="text-3xl text-white mb-5 italic" style={{fontFamily:'cursive'}}>Expertise:</h1>
+      <div className="flex flex-wrap gap-2 md:gap-8">
         {skills.expert.map((skill) => (
           <Skill skill={skill}></Skill>
         ))}
       </div>
       </div>
       {/* Comfotable */}
-      <div>
-        <h1 className="text-3xl text-white ml-20 mb-5 italic" style={{fontFamily:'cursive'}}>Comfortable</h1>
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-10 md:gap-14 mx-8 sm:mx-10 md:mx-72 p-6 m-0 overflow-hidden">
+      <div className="flex flex-col md:flex-row gap-10 mx-10">
+        <h1 className="text-3xl text-white mb-5 italic" style={{fontFamily:'cursive'}}>Comfortable:</h1>
+      <div className="flex flex-wrap gap-2 md:gap-8">
         {skills.comfortable.map((skill) => (
           <Skill skill={skill}></Skill>
         ))}
+      </div>
+      </div>
+
+      {/* Tools */}
+      <div className="flex flex-col md:flex-row gap-10 mx-10">
+        <h1 className="text-3xl text-white mb-5 italic" style={{fontFamily:'cursive'}}>Tools:</h1>
+      <div className="flex flex-wrap gap-2 md:gap-8">
+        {skills.tools.map((skill) => (
+          <Skill skill={skill}></Skill>
+        ))}
+      </div>
       </div>
       </div>
     </div>
