@@ -6,8 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import SampleNextArrow from "./SampleNextArrow";
 import SamplePrevArrow from "./SamplePrevArrow";
 import "./custom-carousel.css"; // Import your custom CSS file
-import { Link } from "react-scroll";
-import { FaArrowRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
@@ -82,12 +81,10 @@ const Projects = () => {
             <Project key={project.id} project={project}></Project>
           ))}
         </Slider>
-      </div>
-      
-      <button className="">
+        <button className="pt-10">
         <Link
-          to="/"
-          class="flex items-center border border-primary text-white gap-1 px-2 py-1 cursor-pointer tracking-widest rounded hover:bg-blue-500 duration-300 hover:gap-2 hover:translate-x-3"
+          to="/projects"
+          class="flex items-center border border-primary text-white gap-1 px-2 py-1 cursor-pointer tracking-widest rounded hover:bg-blue-500 duration-300 hover:gap-2 hover:translate-x-3 shadow-lg shadow-primary"
         >
           View All
           <svg
@@ -106,6 +103,9 @@ const Projects = () => {
           </svg>
         </Link>
       </button>
+      </div>
+      
+      
     </div>
   );
 };
