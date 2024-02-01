@@ -8,6 +8,10 @@ const router = createBrowserRouter([
         path: '/',
         element: <App></App>
     },
+    {
+        path: '/projects',
+        element: <AllProjects></AllProjects>
+    }
 ])
 
 
