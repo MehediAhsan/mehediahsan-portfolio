@@ -1,16 +1,21 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
+import logo from '../assets/logo.png';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="container px-4 py-5 mx-auto md:px-24 lg:px-8">
+    <div className="container px-4 py-3 mx-auto md:px-24 lg:px-8">
       <div className="relative flex items-center justify-between uppercase">
-        <a href="/" className="inline-flex items-center ">
+        {/* <a href="/" className="inline-flex items-center ">
           <span className="ml-2 text-2xl font-medium tracking-wide text-primary transform -skew-y-3">
             Mehedi <span className="text-slate-300">Ahsan</span>
           </span>
-        </a>
+        </a> */}
+        <NavLink to="/">
+        <img src={logo} alt="" className="w-10 md:w-14 cursor-pointer" />
+        </NavLink>
         <ul className="items-center hidden space-x-8 lg:flex">
           <li>
             <Link
@@ -67,7 +72,7 @@ const Navbar = () => {
           <button
             aria-label="Open Menu"
             title="Open Menu"
-            className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
+            className="p-2 -mr-1 transition-all duration-500 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
             onClick={() => setIsMenuOpen(true)}
           >
             <svg className="w-5 text-primary" viewBox="0 0 24 24">
@@ -90,7 +95,7 @@ const Navbar = () => {
               <div className="p-3 bg-gradient-to-r from-[#000808] via-[#000101] to-[#000808] overflow-hidden rounded shadow-sm">
                 <div className="flex items-center justify-between mb-4">
                   <div>
-                    <a
+                    {/* <a
                       href="/"
                       aria-label="Company"
                       title="Company"
@@ -99,13 +104,16 @@ const Navbar = () => {
                       <span className="ml-2 text-2xl font-medium tracking-wide text-primary transform -skew-y-3">
                         Mehedi <span className="text-slate-300">Ahsan</span>
                       </span>
-                    </a>
+                    </a> */}
+                    <NavLink to="/">
+        <img src={logo} alt="" className="w-10 cursor-pointer" />
+        </NavLink>
                   </div>
                   <div>
                     <button
                       aria-label="Close Menu"
                       title="Close Menu"
-                      className="p-2 -mt-2 -mr-2 transition duration-200"
+                      className="p-2 -mt-2 -mr-2 transition-all duration-500"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       <svg className="w-5 text-primary" viewBox="0 0 24 24">

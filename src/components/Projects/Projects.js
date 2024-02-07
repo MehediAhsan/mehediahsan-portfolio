@@ -82,30 +82,28 @@ const Projects = () => {
           ))}
         </Slider>
         <button className="pt-10">
-        <Link
-          to="/projects"
-          class="flex items-center border border-primary text-white gap-1 px-2 py-1 cursor-pointer tracking-widest rounded hover:bg-blue-500 duration-300 hover:gap-2 hover:translate-x-3 shadow-lg shadow-primary"
-        >
-          View All
-          <svg
-            class="w-5 h-5"
-            stroke="currentColor"
-            stroke-width="1.5"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+          <Link
+            to="/projects"
+            class="flex items-center border border-primary text-white gap-1 px-2 py-1 cursor-pointer tracking-widest rounded bg-blue-500 duration-300 hover:gap-2 hover:translate-x-3 shadow-md shadow-primary"
           >
-            <path
-              d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5"
-              stroke-linejoin="round"
-              stroke-linecap="round"
-            ></path>
-          </svg>
-        </Link>
-      </button>
+            View All
+            <svg
+              class="w-5 h-5"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5"
+                stroke-linejoin="round"
+                stroke-linecap="round"
+              ></path>
+            </svg>
+          </Link>
+        </button>
       </div>
-      
-      
     </div>
   );
 };
