@@ -5,21 +5,19 @@ import "./../App.css";
 
 const Poster = () => {
   return (
-    <div className="h-screen flex items-center justify-center">
+    <div className="my-72 flex items-center justify-center">
       <div className="relative flex justify-center items-center">
-        <div className="absolute border-2 border-[#033535] w-[450px] h-[450px] rounded-full animate-pulse"></div>
-        <div className="absolute border border-slate-700 w-[350px] h-[350px] rounded-full"></div>
-        <div className="absolute border border-slate-700 w-[250px] h-[250px] rounded-full"></div>
-        <div className="absolute border border-slate-700 w-64 h-64 rounded-full animate-ping"></div>
-        <div className="absolute border border-slate-700 w-36 h-36 rounded-full"></div>
+        <div className="absolute border-2 border-[#012838] w-[450px] h-[450px] rounded-full animate-pulse"></div>
+        <div className="absolute border-2 border-[#012838] border-dashed w-[350px] h-[350px] rounded-full"></div>
+        <div className="absolute border border-[#012838] w-64 h-64 rounded-full animate-ping"></div>
       </div>
       <img
         src={photo}
-        className="w-[250px] h-[250px] shadow-lg absolute rounded-full border border-[#023f3f]"
+        className="w-[250px] h-[250px] shadow-lg absolute rounded-full bg-black border border-[#012838] object-cover"
         alt="Mehedi"
         loading="lazy"
       />
-      <div className="absolute bg-gradient-to-r from-[#063636] via-[#000101] to-[#083d3d] w-[250px] h-[250px] rounded-full opacity-30"></div>
+      <div className="absolute bg-gradient-to-r from-[#012838] via-[#000101] to-[#012838] w-[250px] h-[250px] rounded-full opacity-20"></div>
       <h1 className="absolute mt-48 uppercase text-slate-300 tracking-[6px]">
         Software Engineer
       </h1>

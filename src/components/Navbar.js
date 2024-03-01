@@ -14,7 +14,7 @@ const Navbar = () => {
           </span>
         </a> */}
         <NavLink to="/">
-        <img src={logo} alt="" className="w-10 md:w-14 cursor-pointer" />
+        <img src={logo} alt="" className="w-10 md:w-12 cursor-pointer" />
         </NavLink>
         <ul className="items-center hidden space-x-8 lg:flex">
           <li>
