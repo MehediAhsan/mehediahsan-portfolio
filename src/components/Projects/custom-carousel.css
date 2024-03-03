@@ -1,10 +1,27 @@
-/* custom-carousel.css */
-/* Customize the dot color */
-.slick-dots li button:before {
-    color: #f3f0f0; /* Change this color to your desired color */
-}
-
-/* Customize the active dot color */
-.slick-dots li.slick-active button:before {
-    color: #ff5722; /* Change this color to your desired active color */
-}
+.swiper-button-prev {
+    padding: 16px;
+    border: 2px solid gray;
+    background-color: black;
+    border-radius: 50%;
+    top: 115px !important;
+    left: 93% !important;
+    color: gray !important;
+  }
+  
+  .swiper-button-next {
+    padding: 16px;
+    border: 2px solid gray;
+    background-color: black;
+    border-radius: 50%;
+    top: 115px !important;
+    right: 0% !important;
+    color: gray !important;
+  }
+  
+  .swiper-button-prev:hover {
+    color: #EFC378;
+  }
+  
+  .swiper-button-next:hover {
+    color: #EFC378;
+  }
