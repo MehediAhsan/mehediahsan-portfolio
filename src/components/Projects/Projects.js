@@ -40,8 +40,8 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="border-b border-[#012838] mb-16">
-        <button className="bg-primary p-2 text-black">Most Views</button>
+      <div className=" pb-12 mb-5">
+        {/* <button className="bg-primary p-2 text-black">Most Views</button> */}
       </div>
       <Swiper
         slidesPerView={1}
@@ -58,7 +58,7 @@ const Projects = () => {
             spaceBetween: 20,
           },
           768: {
-            slidesPerView: 4,
+            slidesPerView: 2,
             spaceBetween: 30,
           },
           1024: {
