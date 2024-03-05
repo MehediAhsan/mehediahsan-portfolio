@@ -40,7 +40,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className=" pb-12 mb-5">
+      <div className="pb-12 mb-5">
         {/* <button className="bg-primary p-2 text-black">Most Views</button> */}
       </div>
       <Swiper
