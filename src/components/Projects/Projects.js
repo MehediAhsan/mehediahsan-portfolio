@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 // import required modules
-import { Navigation } from "swiper/modules";
+import { Navigation, Autoplay } from "swiper/modules";
 
 import Project from './Project';
 import './custom-carousel.css'
@@ -47,6 +47,10 @@ const Projects = () => {
         slidesPerView={1}
         spaceBetween={10}
         loop={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: true,
+        }}
         // navigation={true}
         navigation={{
           prevEl: ".swiper-button-prev",
@@ -66,7 +70,7 @@ const Projects = () => {
             spaceBetween: 40,
           },
         }}
-        modules={[Navigation]}
+        modules={[Navigation, Autoplay]}
         className="mySwiper custom-swiper"
       >
         {projects.map((project, i) => (

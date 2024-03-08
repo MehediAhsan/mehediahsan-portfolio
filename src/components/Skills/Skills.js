@@ -98,17 +98,17 @@ const Skills = () => {
         img: "https://cdn-icons-png.flaticon.com/512/270/270798.png",
         percentage: "90%",
       },
-    ]
+    ],
   };
   return (
     <div
       data-aos="fade-up"
       data-aos-duration="500"
       name="skills"
-      className="container mx-auto  mb-20 overflow-hidden"
+      className="container mx-auto mb-20 overflow-hidden"
     >
       {/* <h1 className='text-3xl font-bold text-center mb-10 text-slate-200'>My <span className='text-teal-500'>Skills</span></h1> */}
-      <div class="container mb-10">
+      <div class="container mb-20">
         <div class="row">
           <div class="col-md-12 text-center">
             <h3 class="animate-charcter tracking-[10px] font-medium">
@@ -118,35 +118,50 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-10 justify-center">
+      <div className="flex flex-col gap-14 justify-center">
         {/* Expertise */}
-      <div className="flex flex-col md:flex-row gap-10 mx-10">
-        <h1 className="text-3xl text-white mb-5 italic" style={{fontFamily:'cursive'}}>Expertise:</h1>
-      <div className="flex flex-wrap gap-2 md:gap-8">
-        {skills.expert.map((skill) => (
-          <Skill skill={skill}></Skill>
-        ))}
-      </div>
-      </div>
-      {/* Comfotable */}
-      <div className="flex flex-col md:flex-row gap-10 mx-10">
-        <h1 className="text-3xl text-white mb-5 italic" style={{fontFamily:'cursive'}}>Comfortable:</h1>
-      <div className="flex flex-wrap gap-2 md:gap-8">
-        {skills.comfortable.map((skill) => (
-          <Skill skill={skill}></Skill>
-        ))}
-      </div>
-      </div>
+        <div className="flex flex-col md:flex-row gap-10 mx-10 items-center">
+          <h1
+            className="text-2xl text-white mb-5 italic"
+            style={{ fontFamily: "cursive" }}
+          >
+            Expertise:
+          </h1>
+          <div className="flex flex-wrap gap-8">
+            {skills.expert.map((skill) => (
+              <Skill skill={skill}></Skill>
+            ))}
+          </div>
+        </div>
+        {/* Comfotable */}
+        <div className="flex flex-col md:flex-row gap-10 mx-10 items-center">
+          <h1
+            className="text-2xl text-white mb-5 italic"
+            style={{ fontFamily: "cursive" }}
+          >
+            Comfortable:
+          </h1>
+          <div className="flex flex-wrap gap-8">
+            {skills.comfortable.map((skill) => (
+              <Skill skill={skill}></Skill>
+            ))}
+          </div>
+        </div>
 
-      {/* Tools */}
-      <div className="flex flex-col md:flex-row gap-10 mx-10">
-        <h1 className="text-3xl text-white mb-5 italic" style={{fontFamily:'cursive'}}>Tools:</h1>
-      <div className="flex flex-wrap gap-2 md:gap-8">
-        {skills.tools.map((skill) => (
-          <Skill skill={skill}></Skill>
-        ))}
-      </div>
-      </div>
+        {/* Tools */}
+        <div className="flex flex-col md:flex-row gap-10 mx-10 items-center">
+          <h1
+            className="text-2xl text-white mb-5 italic"
+            style={{ fontFamily: "cursive" }}
+          >
+            Tools:
+          </h1>
+          <div className="flex flex-wrap gap-8">
+            {skills.tools.map((skill) => (
+              <Skill skill={skill}></Skill>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );

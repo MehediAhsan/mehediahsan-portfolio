@@ -1,21 +1,21 @@
 .swiper-button-prev {
     padding: 16px;
-    border: 2px solid gray;
+    border: 2px solid #0b6a8f;
     background-color: black;
     border-radius: 50%;
     top: 115px !important;
     left: 90%;
-    color: gray !important;
+    color: #0b6a8f !important;
   }
   
   .swiper-button-next {
     padding: 16px;
-    border: 2px solid gray;
+    border: 2px solid #0b6a8f;
     background-color: black;
     border-radius: 50%;
     top: 115px !important;
     right: 0%;
-    color: gray !important;
+    color: #0b6a8f !important;
   }
   
   .swiper-button-prev:hover {
