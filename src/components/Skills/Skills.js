@@ -12,6 +12,11 @@ import firebase from "./logo/firebase.png";
 import bootstrap from "./logo/bootstrap.png";
 import typescript from "./logo/typescript.png";
 import nextjs from "./logo/nextjs.png";
+import vscode from "./logo/vscode.png";
+import postman from "./logo/postman.png";
+import figma from "./logo/figma.png";
+import illustrator from "./logo/illustrator.png";
+import git from "./logo/git.png";
 
 const Skills = () => {
   const skills = {
@@ -47,13 +52,13 @@ const Skills = () => {
         percentage: "70%",
       },
       {
-        id: "7",
+        id: "6",
         name: "nextjs",
         img: nextjs,
         percentage: "70%",
       },
       {
-        id: "8",
+        id: "7",
         name: "tailwind",
         img: tailwind,
         percentage: "90%",
@@ -61,31 +66,31 @@ const Skills = () => {
     ],
     comfortable: [
       {
-        id: "9",
+        id: "1",
         name: "express",
         img: express,
         percentage: "80%",
       },
       {
-        id: "10",
+        id: "2",
         name: "firebase",
         img: firebase,
         percentage: "90%",
       },
       {
-        id: "11",
+        id: "3",
         name: "bootstrap",
         img: bootstrap,
         percentage: "90%",
       },
       {
-        id: "12",
+        id: "4",
         name: "typescript",
         img: typescript,
         percentage: "70%",
       },
       {
-        id: "13",
+        id: "5",
         name: "mongodb",
         img: mongodb,
         percentage: "70%",
@@ -93,11 +98,41 @@ const Skills = () => {
     ],
     tools: [
       {
-        id: "7",
+        id: "1",
         name: "github",
         img: "https://cdn-icons-png.flaticon.com/512/270/270798.png",
         percentage: "90%",
       },
+      {
+        id: "2",
+        name: "vscode",
+        img: vscode,
+        percentage: "90%",
+      },
+      {
+        id: "3",
+        name: "postman",
+        img: postman,
+        percentage: "90%",
+      },
+      {
+        id: "4",
+        name: "figma",
+        img: figma,
+        percentage: "90%",
+      },
+      {
+        id: "5",
+        name: "illustrator",
+        img: illustrator,
+        percentage: "90%",
+      },
+      {
+        id: "6",
+        name: "git",
+        img: git,
+        percentage: "90%",
+      }
     ],
   };
   return (

@@ -9,8 +9,9 @@ import "swiper/css/navigation";
 // import required modules
 import { Navigation, Autoplay } from "swiper/modules";
 
-import Project from './Project';
-import './custom-carousel.css'
+import Project from "./Project";
+import "./custom-carousel.css";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
@@ -28,7 +29,6 @@ const Projects = () => {
       name="projects"
       className="container mx-auto my-28 relative"
     >
-      {/* <h1 className='text-3xl font-bold text-center my-20 text-slate-200'>My Latest<span className='text-teal-500'> Projects</span></h1> */}
       <div class="container mb-16">
         <div class="row">
           <div class="col-md-12 text-center">
@@ -81,6 +81,11 @@ const Projects = () => {
       </Swiper>
       <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
+      <Link to="/projects" className="flex justify-center mt-5">
+        <button class="relative py-2 px-5 text-black text-sm font-bold nded-full overflow-hidden bg-gray-300 rounded-full transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-blue-500 before:to-blue-300 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-full hover:before:left-0">
+          Show All
+        </button>
+      </Link>
     </div>
   );
 };
