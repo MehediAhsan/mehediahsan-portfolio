@@ -18,7 +18,7 @@ const AllProjects = () => {
 
       <div className="my-20 grid grid-cols-1 md:grid-cols-3 gap-10 px-10">
         {projects.map((project) => (
-          <div key={project.id} className="border border-[#224141] rounded-xl overflow-hidden shadow-lg mx-auto w-11/12 mb-8">
+          <div key={project.id} className="border border-[#081818] rounded-xl overflow-hidden shadow-lg mx-auto w-11/12 mb-8">
             <img
               className="h-80 w-full object-cover p-5 rounded-xl shadow-lg"
               src={project.image}

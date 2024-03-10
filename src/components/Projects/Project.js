@@ -6,7 +6,7 @@ const Project = ({ project }) => {
     project;
 
   return (
-    <div className="bg-[#010e0e] rounded-xl overflow-hidden shadow-lg mx-auto w-11/12 mb-8">
+    <div className="bg-[#010808] rounded-xl overflow-hidden shadow-lg mx-auto w-11/12 mb-8">
       <img
         className="h-64 w-full object-fill p-5 rounded-xl shadow-lg"
         src={image}
