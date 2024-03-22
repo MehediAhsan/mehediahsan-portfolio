@@ -153,7 +153,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-14 justify-center">
+      <div className="flex flex-col gap-14 justify-center md:mx-10">
         {/* Expertise */}
         <div className="flex flex-col md:flex-row gap-10 mx-10 items-center">
           <h1

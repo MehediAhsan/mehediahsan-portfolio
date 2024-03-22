@@ -30,11 +30,11 @@
 
   @media only screen and (max-width: 500px) {
     .swiper-button-prev {
-        left: 75% !important;
+        left: 74% !important;
     }
   
     .swiper-button-next {
-        left: 90% !important;
+        left: 87% !important;
     }
   }
   
@@ -59,10 +59,10 @@
   
   @media only screen and (min-width:1024px) {
     .swiper-button-prev {
-        left: 92% !important;
+        left: 90% !important;
     }
   
     .swiper-button-next {
-        left: 97% !important;
+        left: 95% !important;
     }
   }

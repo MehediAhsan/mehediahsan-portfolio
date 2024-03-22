@@ -25,7 +25,7 @@ function App() {
       <Youtube></Youtube>
       <Contact></Contact>
       <Social></Social>
-      <ScrollToTop smooth={true} height='24' color='#fff' style={{backgroundColor:"#0b6a8f", borderRadius:'100%', padding:'6px'}}/>
+      <ScrollToTop className='animate-bounce' smooth={true} height='22' color='#fff' style={{backgroundColor:"#0b6a8f", borderRadius:'100%', padding:'6px', right: '15px'}}/>
       <Toaster />
     </div>
   );
