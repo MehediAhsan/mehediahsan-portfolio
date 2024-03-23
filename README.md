@@ -1,6 +1,6 @@
 # My Portfolio Website.
 
-Hi👋 I am Mehedi Ahsan. This is my portfolio website. In this website I have used react js and tailwind css.
+Hi👋 I am Mehedi Ahsan. This is my portfolio website. In this website, I have used react js and tailwind css.
 
 ## Used Resources
 Framework -> [Tailwindcss](https://tailwindcss.com/)
