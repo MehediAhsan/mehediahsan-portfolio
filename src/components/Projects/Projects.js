@@ -12,15 +12,9 @@ import { Navigation, Autoplay } from "swiper/modules";
 import Project from "./Project";
 import "./custom-carousel.css";
 import { Link } from "react-router-dom";
+import { projects } from '../../data/projectsData'
 
 const Projects = () => {
-  const [projects, setProjects] = useState([]);
-
-  useEffect(() => {
-    fetch("projects.json")
-      .then((res) => res.json())
-      .then((data) => setProjects(data));
-  }, []);
 
   return (
     <div
