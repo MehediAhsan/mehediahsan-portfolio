@@ -25,10 +25,10 @@ const Youtube = () => {
       className="container mx-auto  my-28 overflow-hidden"
     >
       {/* <h1 className='text-3xl font-bold text-center my-10 text-slate-200'>My <span className='text-teal-500'>Youtube Video</span></h1> */}
-      <div class="container mb-10">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <h3 class="animate-charcter tracking-[10px] font-medium">
+      <div className="container mb-10">
+        <div className="row">
+          <div className="col-md-12 text-center">
+            <h3 className="animate-charcter tracking-[10px] font-medium">
               {" "}
               Youtube Video
             </h3>

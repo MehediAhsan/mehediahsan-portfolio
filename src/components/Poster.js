@@ -31,7 +31,7 @@ const Poster = () => {
           }}
         />
       </h1>
-      <button class="absolute mt-80 ui-btn">
+      <button className="absolute mt-80 ui-btn">
       <a href="https://drive.google.com/file/d/1WEuqyNWP0S805IE4Sx71X4sxH8_-EPaP/view" target="_blank">
         <span>RESUME</span>
       </a>

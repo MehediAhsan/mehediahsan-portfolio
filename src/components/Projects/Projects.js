@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -23,10 +23,10 @@ const Projects = () => {
       name="projects"
       className="container mx-auto my-28 relative px-5 md:px-10"
     >
-      <div class="container mb-16">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <h3 class="animate-charcter tracking-[10px] font-medium">
+      <div className="container mb-16">
+        <div className="row">
+          <div className="col-md-12 text-center">
+            <h3 className="animate-charcter tracking-[10px] font-medium">
               {" "}
               PROJECTS
             </h3>
@@ -76,7 +76,7 @@ const Projects = () => {
       <div className="swiper-button-prev"></div>
       <div className="swiper-button-next"></div>
       <Link to="/projects" className="flex justify-center mt-5">
-        <button class="relative py-2 px-5 text-black text-sm font-bold nded-full overflow-hidden bg-gray-300 rounded-full transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-blue-500 before:to-blue-300 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-full hover:before:left-0">
+        <button className="relative py-2 px-5 text-black text-sm font-bold nded-full overflow-hidden bg-gray-300 rounded-full transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-blue-500 before:to-blue-300 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-full hover:before:left-0">
           Show All
         </button>
       </Link>

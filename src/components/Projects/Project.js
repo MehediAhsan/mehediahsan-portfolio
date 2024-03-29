@@ -30,7 +30,7 @@ const Project = ({ project }) => {
 
             <FaExternalLinkAlt className="mr-2 text-white" />
           </a>
-          <button class="btn-details">Details</button>
+          <button className="btn-details">Details</button>
         </div>
       </div>
     </div>

@@ -1,8 +1,5 @@
 import React from "react";
 import Breadcrumb from "../components/Breadcrumb";
-import { useEffect } from "react";
-import { useState } from "react";
-import { FaExternalLinkAlt } from "react-icons/fa";
 import { projects } from "../data/projectsData";
 import Project from "../components/Projects/Project";
 

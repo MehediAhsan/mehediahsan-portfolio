@@ -132,7 +132,7 @@ const Skills = () => {
         name: "git",
         img: git,
         percentage: "90%",
-      }
+      },
     ],
   };
   return (
@@ -143,10 +143,10 @@ const Skills = () => {
       className="container mx-auto mb-20 overflow-hidden"
     >
       {/* <h1 className='text-3xl font-bold text-center mb-10 text-slate-200'>My <span className='text-teal-500'>Skills</span></h1> */}
-      <div class="container mb-20">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <h3 class="animate-charcter tracking-[10px] font-medium">
+      <div className="container mb-20">
+        <div className="row">
+          <div className="col-md-12 text-center">
+            <h3 className="animate-charcter tracking-[10px] font-medium">
               {" "}
               SKILLS
             </h3>
@@ -163,8 +163,8 @@ const Skills = () => {
             Expertise:
           </h1>
           <div className="flex flex-wrap gap-8">
-            {skills.expert.map((skill) => (
-              <Skill skill={skill}></Skill>
+            {skills.expert.map((skill, i) => (
+              <Skill skill={skill} key={i}></Skill>
             ))}
           </div>
         </div>
@@ -177,8 +177,8 @@ const Skills = () => {
             Comfortable:
           </h1>
           <div className="flex flex-wrap gap-8">
-            {skills.comfortable.map((skill) => (
-              <Skill skill={skill}></Skill>
+            {skills.comfortable.map((skill, i) => (
+              <Skill skill={skill} key={i}></Skill>
             ))}
           </div>
         </div>
@@ -192,8 +192,8 @@ const Skills = () => {
             Tools:
           </h1>
           <div className="flex flex-wrap gap-8">
-            {skills.tools.map((skill) => (
-              <Skill skill={skill}></Skill>
+            {skills.tools.map((skill, i) => (
+              <Skill skill={skill} key={i}></Skill>
             ))}
           </div>
         </div>
