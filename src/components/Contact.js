@@ -117,7 +117,7 @@ const Contact = () => {
                 type="text"
                 name="user_name"
                 placeholder="Name..."
-                className="mt-2 block w-full rounded-md shadow-sm text-gray-200 border-b py-2 pl-2 bg-transparent border-teal-700"
+                className="mt-2 block w-full rounded-md shadow-sm text-gray-200 border-b py-2 pl-2 bg-transparent border-teal-700 outline-none ring-none focus:ring-1 focus:ring-teal-700"
                 required
               />
             </label>
@@ -127,7 +127,7 @@ const Contact = () => {
                 type="email"
                 name="user_email"
                 placeholder="Email..."
-                className="mt-2 block w-full rounded-md shadow-sm text-gray-200 border-b py-2 pl-2 bg-transparent border-teal-700"
+                className="mt-2 block w-full rounded-md shadow-sm text-gray-200 border-b py-2 pl-2 bg-transparent border-teal-700 outline-none ring-none focus:ring-1 focus:ring-teal-700"
                 required
               />
             </label>
@@ -137,7 +137,7 @@ const Contact = () => {
                 name="message"
                 rows="3"
                 placeholder="Write Here..."
-                className="mt-2 block w-full rounded-md text-gray-200 border-b py-2 pl-2 bg-transparent border-teal-700"
+                className="mt-2 block w-full rounded-md text-gray-200 border-b py-2 pl-2 bg-transparent border-teal-700 outline-none ring-none focus:ring-1 focus:ring-teal-700"
                 required
               ></textarea>
             </label>
